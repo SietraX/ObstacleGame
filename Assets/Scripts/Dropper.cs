@@ -7,7 +7,6 @@ public class Dropper : MonoBehaviour
     // Start is called before the first frame update
     MeshRenderer rendererComp;
     Rigidbody rigidBodyComp;
-    [SerializeField] float timeToWait = 3f;
     void Start()
     {
         rendererComp = GetComponent<MeshRenderer>();
@@ -17,17 +16,11 @@ public class Dropper : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        timeCheckerToDrop();
-    }
-    private void timeCheckerToDrop()
-    {
-        if (Time.time > timeToWait)
-        {
-            rendererComp.enabled = true;
-            rigidBodyComp.useGravity = true;
-        }
 
+    public IEnumerator timeCheckerToDrop(float timeToDrop)
+    {
+        yield return new WaitForSeconds(timeToDrop);
+        rendererComp.enabled = true;
+        rigidBodyComp.useGravity = true;
     }
 }
