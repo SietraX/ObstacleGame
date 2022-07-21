@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Scorer : MonoBehaviour
 {
-    int bumpCounter = 0;
+    int hitCounter = 0;
     private void OnCollisionEnter(Collision other)
     {
-        bumpCounter++;
-        Debug.Log("You've bumped into a thing " + bumpCounter + " times.");
+        hitCounter++;
+        Debug.Log("You've bumped into the obstacles " + hitCounter + " times.");
+
     }
 }
