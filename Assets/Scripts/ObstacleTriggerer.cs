@@ -23,6 +23,5 @@ public class ObstacleTriggerer : MonoBehaviour
         }
         BoxCollider boxCollider = GetComponent<BoxCollider>();
         boxCollider.enabled = false;
-        Debug.Log("test");
     }
 }
