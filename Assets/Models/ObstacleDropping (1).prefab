@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 5128991134599187193}
   - component: {fileID: 5128991134599187192}
   - component: {fileID: 5128991134599187195}
-  - component: {fileID: 5128991134599187194}
   - component: {fileID: 5128991134599187077}
   - component: {fileID: 5128991134599187198}
+  - component: {fileID: -4258779044340953706}
   m_Layer: 0
   m_Name: ObstacleDropping (1)
   m_TagString: Untagged
@@ -100,18 +100,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5128991134599187194
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5128991134599187079}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6f970a8f6ee20944b465374278faa81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &5128991134599187077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124,7 +112,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c06de7160b451ea4d9e67fdbb588d8d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToWait: 5
 --- !u!54 &5128991134599187198
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -141,3 +128,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-4258779044340953706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5128991134599187079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6f970a8f6ee20944b465374278faa81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

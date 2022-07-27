@@ -110,8 +110,8 @@ GameObject:
   - component: {fileID: 8787156806700389550}
   - component: {fileID: 8787156806700389551}
   - component: {fileID: 8787156806700389544}
-  - component: {fileID: 8787156806700389545}
   - component: {fileID: 8787156806700389546}
+  - component: {fileID: -417191674741009862}
   m_Layer: 0
   m_Name: ObstacleSpinning (1)
   m_TagString: Untagged
@@ -199,18 +199,6 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &8787156806700389545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8787156806700389540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6f970a8f6ee20944b465374278faa81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &8787156806700389546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,3 +214,15 @@ MonoBehaviour:
   xRotation: 0.6
   yRotation: 0
   zRotation: 0
+--- !u!114 &-417191674741009862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8787156806700389540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6f970a8f6ee20944b465374278faa81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

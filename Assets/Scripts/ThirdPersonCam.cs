@@ -8,7 +8,7 @@ public class ThirdPersonCam : MonoBehaviour
     public Transform orientation;
     public Transform player;
     public Transform playerObj;
-    public Rigidbody rb;
+    public Rigidbody m_rigidbody;
 
     public float rotationSpeed;
 
